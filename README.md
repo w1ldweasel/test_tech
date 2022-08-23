@@ -1,2 +1,2 @@
-# test_tech
+# TestTechTools
 Source code for scanning tool testing
