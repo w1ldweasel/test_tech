@@ -1,0 +1,6 @@
+{
+    "sonarlint.connectedMode.project": {
+        "connectionId": "MySonarConnection",
+        "projectKey": "w1ldweasel_TestTechTools"
+    }
+}
