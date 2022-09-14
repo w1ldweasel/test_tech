@@ -7,6 +7,10 @@ io.on('connection', function(client){
   console.log('Client connected...');
 
   client.emit('messages', {hello: 'world'});
+
+  client.on('messages', function(data){
+    console.log(data);
+  });
 });
 
 app.get('/', function (req, res){
