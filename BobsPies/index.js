@@ -9,6 +9,7 @@ let pies = [
     { "id":2, "name": "Cherry"},
     { "id":3, "name": "Peach"}
 ];
+let hc_password = "mytestpassword";
 //Create GET to return a list of all pies
 router.get('/', function(req, res, next){
     res.send(pies);
@@ -19,6 +20,6 @@ app.use('/api/', router);
 
 //Create server to listen on port 5000
 var server = app.listen(5000, function(){
-    console.log('Node server is running on http://localhost:5000');
+   console.log('Node server is running on http://localhost:5000');
 })
 
