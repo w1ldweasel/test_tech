@@ -3,3 +3,4 @@ cmd> npm init
 Add description can return to accept defaults
 npm install express nodemon 
 *nodemon is node monitor
+Edit package.json to add    "start": "nodemon index.js", to 'scripts' this allows changes to be picked up in runtime

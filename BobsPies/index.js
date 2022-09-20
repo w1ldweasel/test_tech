@@ -7,7 +7,7 @@ let router = express.Router();
 
 //Create GET to return a list of all pies
 router.get('/', function(req, res, next){
-    res.send("Apple");
+    res.send("Cherry");
 });
 
 //Configure router so all routes are prefixed with /api/v1
