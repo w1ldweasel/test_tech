@@ -1,0 +1,5 @@
+Node project
+cmd> npm init
+Add description can return to accept defaults
+npm install express nodemon 
+*nodemon is node monitor
