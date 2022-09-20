@@ -1,4 +1,4 @@
-// Bring ing express server and create app
+//Bringing express server and create app
 let express = require('express');
 let app = express();
 
