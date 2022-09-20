@@ -1,0 +1,15 @@
+{
+  "name": "bobspies",
+  "version": "1.0.0",
+  "description": "REST API for Bob's Pie Shop",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "MN",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.1",
+    "nodemon": "^2.0.20"
+  }
+}

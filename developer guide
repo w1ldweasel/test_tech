@@ -1,0 +1,9 @@
+NVS install
+https://nodejs.org/en/download/package-manager/#nvs
+
+Sonarlint setting
+settings.json in .vscode or path flagged up by plugin error message:
+C:\Users\sonarlcient\.vscode\settings.json
+To manually find launch extension settings, open SonarLint one and set: SonarLint: Path To Node Executable
+to
+C:\Users\sonarclient\AppData\Local\nvs\node\16.17.0\x64\node.exe
