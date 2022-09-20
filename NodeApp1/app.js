@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var server = require('http').createServer(app);
 var io = require('socket.io')(server);
+var hc_password = "mytestpassword";
 
 io.on('connection', function(client){
   console.log('Client connected...');
