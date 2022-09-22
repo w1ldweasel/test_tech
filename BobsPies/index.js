@@ -5,17 +5,19 @@ let pieRepo = require('./repos/pieRepos');
 
 //Use the express Router object
 let router = express.Router();
-let pies = pieRepo.get();
 
 let hc_password = "mytestpassword";
 //Create GET to return a list of all pies
 router.get('/', function(req, res, next){
-    res.status(200).json({
-        "status": 200,
-        "statusText": "OK",
-        "message": "All pies retrieved.",
-        "data": pies
-
+    pieRepo.get(function(data) {
+        res.status(200).json({
+            "status": 200,
+            "statusText": "OK",
+            "message": "All pies retrieved.",
+            "data": data
+        });
+    }, function(err){
+        next(err);
     });
 });
 
