@@ -1,5 +1,13 @@
 [
     { 
+        "id":0, 
+        "name": "Mince",
+        "wholePrice": 999.99,
+        "slicePrice": 99.99,
+        "sliceCalories": 350,
+        "imageUrl": "images/mince.jpg"
+    },
+    { 
         "id":1, 
         "name": "Apple",
         "wholePrice": 19.99,
