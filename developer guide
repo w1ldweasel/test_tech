@@ -7,3 +7,13 @@ C:\Users\sonarlcient\.vscode\settings.json
 To manually find launch extension settings, open SonarLint one and set: SonarLint: Path To Node Executable
 to
 C:\Users\sonarclient\AppData\Local\nvs\node\16.17.0\x64\node.exe
+
+https://github.com/jasongin/nvs
+$ nvs add latest
+$ nvs use lts
+nvs --version	Display the NVS tool version
+nvs add [version]	Download and extract a node version
+
+npm init # to create a package.json  for node project
+npm install express nodemon # install express server to project
+npm start # run this in your api project
