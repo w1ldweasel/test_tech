@@ -17,3 +17,7 @@ nvs add [version]	Download and extract a node version
 npm init # to create a package.json  for node project
 npm install express nodemon # install express server to project
 npm start # run this in your api project
+
+Tests
+http://localhost:5000/api/ #retrieves all pies
+http://localhost:5000/api/1 #retrieves the pie at this index
